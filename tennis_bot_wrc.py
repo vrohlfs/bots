@@ -81,7 +81,7 @@ actions.click(search).perform()
 wait.until(EC.element_to_be_clickable((By.XPATH,'//*[@id="times-to-reserve"]/tbody/tr/td[1]/a[text()[contains(.,"' + t +'" )]]'))).click()
 
 # Confirm
-# wait.until(EC.element_to_be_clickable((By.XPATH,'//*[@id="confirm"]'))).click()
+wait.until(EC.element_to_be_clickable((By.XPATH,'//*[@id="confirm"]'))).click()
 
 # close entire browser
 #driver.quit()
