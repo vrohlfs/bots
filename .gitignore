@@ -1,6 +1,6 @@
 
-# Ignore .gitignore itself
-.gitignore
+# Ignore .gitignore itself - some folks do this
+# .gitignore
 
 # Ignore Mac system files
 .DS_store
